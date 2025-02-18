@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SettingsActivity">
+
+    <!-- Title Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Switch for receiving recommendations -->
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="Receive recommendations"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- Button to check updates -->
+    <Button
+        android:id="@+id/updater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Check updates"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Button to trigger 'Get' action -->
+    <Button
+        android:id="@+id/Get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Get"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Instructions Text -->
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get the required documents"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_marginTop="16dp"
+        android:translationX="100.0dp"
+        android:translationY="-57.0dp"/>
+</LinearLayout>

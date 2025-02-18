@@ -1,0 +1,8 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Disable the default action bar -->
+        <item name="windowActionBar">false</item>
+        <!-- Use a Toolbar instead -->
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
